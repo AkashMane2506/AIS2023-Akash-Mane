@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="Validation.js"></script>
+</head>
+   
+    <body bgcolor="Pink"><h1 style="text-align: center;">Data Owner Registration Form</h1><br><br>
+        <style>
+            form{
+                width: 40%;
+                margin: auto;
+            }
+            input[type="text"], input[type="email"], input[type="password"], select {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			box-sizing: border-box;
+			border: none;
+			border-radius: 5px;
+			background-color: #f2f2f2;
+		}
+		input[type="REGISTER"] {
+			width: 100%;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			background-color: #4CAF50;
+			color: white;
+			font-size: 16px;
+			cursor: pointer;
+        }
+        </style>
+      <form>
+       <b style="color: crimson;">Full Name:</b> <input type="text" name="Full name" placeholder="Enter Your Full Name"><br><br>
+       <b style="color: blue;">Gender:</b><input type="radio" name="Gender"value="Male">Male<br><br>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="Gender"value="Female">Female<br><br>   
+       <b style="color: black;">Contact Number:</b> <input type="text" name="Contact Number" placeholder="Enter Your 10 Digit Number"><br><br>
+       <b style="color: rgb(51, 0, 255);">Date Of Birth:</b><input type="date" name="Date Of Birth" placeholder="Enter Your Date of Birth"><br><br>
+       <b style="color: rgb(18, 79, 79);">E-mail Id:</b> <input type="text" name="E-mail Id" placeholder="Enter Your E-mail Id"><br><br>
+       <b style="color: rgb(168, 29, 31);">Country:</b>
+       <select>
+        <option>India</option>
+        <option>Australia</option>
+        <option>Japan</option>
+        <option>England</option>
+        <option>America</option>
+        <option>Brazil</option>
+        <option>Bangladesh</option>
+        <option>France</option>
+        <option>New Zealand</option>
+        <option>South Africa</option>
+       </select><br><br>
+       <b style="color: darkmagenta;">State:</b>
+       <select>
+        <option>Maharashtra</option>
+        <option>Karnataka</option>
+        <option>Gujrat</option>
+        <option>Tamilnadu</option>
+        <option>Jharkhand</option>
+       </select><br><br>
+       <b style="color: forestgreen;">District:</b>
+       <select>
+        <option>Satara</option>
+        <option>Sangli</option>
+        <option>Kolhapur</option>
+        <option>Pune</option>
+        <option>Aurangabad</option>
+       </select><br><br>
+       <b>PIN Code:</b> <input type="text" name="PIN Code" placeholder="Enter Your PIN Code"><br><br><br>
+        
+       <button><b>CLEAR</b></button>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <b><input type="button" value="REGISTER" onclick="Validation()"></b>
+      
+    </form>
+    </body>
+</html>
