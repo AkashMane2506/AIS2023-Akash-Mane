@@ -1,0 +1,52 @@
+
+form{
+    width: 40%;
+    margin: auto;
+}
+input[type="text"], input[type="email"], input[type="password"], select {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+box-sizing: border-box;
+border: none;
+border-radius: 5px;
+background-color: #f2f2f2;
+}
+input[type="REGISTER"] {
+width: 100%;
+padding: 10px;
+border: none;
+border-radius: 5px;
+background-color: #4CAF50;
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
+.navbar {
+overflow: hidden;
+background-color: #333;
+position: sticky;
+top: 0;
+}
+
+.navbar a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+h1{
+    color: blue;
+    background-color: rgb(43, 226, 76);
+    font-style: italic;
+ }
+ b
+ {
+    color: red;
+ }
+ body{
+    background-color: rgb(197, 132, 196);
+ }
